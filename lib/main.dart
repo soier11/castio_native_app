@@ -15,14 +15,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Castio',
       theme: ThemeData(
-        brightness: Brightness.dark,
+        // brightness: Brightness.dark,
         scaffoldBackgroundColor: kBackgroundColor,
         primaryColor: kPrimaryColor,
         textTheme:
             Theme.of(context).textTheme.apply(bodyColor: kTextColor).copyWith(
                   button: TextStyle(color: kPrimaryColor),
-                  // headline:
-                  //     TextStyle(color: Colors.white, fontWeight: FontWeight.normal),
                 ),
         inputDecorationTheme: InputDecorationTheme(
           enabledBorder: UnderlineInputBorder(
